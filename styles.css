@@ -135,6 +135,164 @@ section hr {
     top:0px;
     width: 100%;
     border: solid;
-    border-width:5px;
+    border-width:2.5px;
     border-color: #3c3c3c;
+}
+
+.article {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.article img {
+    width: auto;
+    height: 25rem;
+    margin-left: 5rem;
+}
+
+.article .articleDesc p {
+    font-size: 3vh;
+    color: white;
+}
+
+.article .articleDesc #btnTrial {
+    margin-top: 25px;
+    background-color: #d10f17;
+    color: white;
+    font-size: 15px;
+    width: 280px;
+    height:55px;
+    border: none;
+    border-radius: 3px;
+}
+
+.article2 {
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.article2 .articleHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.article2 .articleHeader p {
+    font-size: 2.5vh;
+    color: white;
+}
+
+.article2 .articleHeader #btnTrial {
+    margin-left: 5vh;
+    background-color: #d10f17;
+    color: white;
+    font-size: 15px;
+    width: 480px;
+    height:50px;
+    border: none;
+    border-radius: 3px;
+}
+
+.article2 .articleContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5vh;
+}
+
+.article2 .articleContent .contentHead {
+    margin: 20px 0;
+    color: white;
+}
+
+.article2 .articleContent .contentDesc {
+    font-size: 20px;
+}
+
+.a3-c1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3.5rem;
+    gap: 1.25rem;
+}
+
+.a3-c1 p {
+    font-size: 29px;
+    color: white;
+}
+
+.a3-c1 #btnTrial {
+    background-color: #d10f17;
+    color: white;
+    font-size: 17.8px;
+    width: 280px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+}
+
+.priceTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+.priceTable .tableHead {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.priceTable .tableTitle {
+    width: 70rem;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.priceTable .tableItem {
+    width: 10rem;
+    padding: 15px;
+}
+
+.priceTable .trLight {
+    background-color: #222222;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links li {
+    list-style: none;
+    padding: 5px;
+}
+
+.links a {
+    color: #999;
+    text-decoration: none;
+}
+
+.links ul {
+    padding: 12vh;
+    padding-bottom: 2rem;
+}
+
+#footerInfo {
+    display: block;
+    margin-block-start: 5em;
+    margin-block-end: -7em;
+    margin-inline-start: 23.8em;
+    margin-inline-end: 0px
 }
