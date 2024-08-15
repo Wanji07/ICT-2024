@@ -1,6 +1,7 @@
-# Netflix Mockup Website 1.0.3
+Netflix Mockup Website 1.0.3
 
 # Preview:
-![Preview](https://github.com/user-attachments/assets/6fd9058f-03b3-48fc-856c-973fd4bd5761)
+![screencapture-127-0-0-1-5500-index-html-2024-08-15-08_46_11](https://github.com/user-attachments/assets/516a3375-c1ad-49fb-9581-91aa1761697d)#
 
-# Note: This is only used for educational purposes.
+Note: This is only used for educational purposes.
+
