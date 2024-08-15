@@ -99,7 +99,6 @@ body {
     padding: 20px;
 }
 
-
 .section .sectionBtn ul li button {
     margin: auto;
     margin: 0 8rem;
@@ -123,13 +122,10 @@ body {
     font-size: 50px;
 }
 
-.section .sectionBtn ul li button:hover i {
+.section .sectionBtn ul li button:hover {
     color: white;
 }
 
-.section .sectionBtn ul li button:hover a {
-    color: white;
-}
 section hr {
     position: relative;
     top:0px;
@@ -140,18 +136,22 @@ section hr {
 }
 
 .article {
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    margin-top: 12rem;
+    margin-bottom: -20rem;
     padding: 25px;
 }
 
 .article img {
+    position: relative;
+    bottom: 30vh;
+    left: 60%;
     width: auto;
     height: 25rem;
-    margin-left: 5rem;
+}
+
+.article .articleDesc {
+    margin-left: 40vh;
 }
 
 .article .articleDesc p {
@@ -173,6 +173,7 @@ section hr {
 .article2 {
     margin: auto;
     margin-top: 5rem;
+    transition:ease-in .5s ease-out;
 }
 
 .article2 .articleHeader {
@@ -295,4 +296,10 @@ section hr {
     margin-block-end: -7em;
     margin-inline-start: 23.8em;
     margin-inline-end: 0px
+}
+
+.article2,
+.article3 {
+    display: none;
+    opacity: 0;
 }
